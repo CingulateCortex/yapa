@@ -1,0 +1,51 @@
+
+===================================================================
+Protocol Hierarchy Statistics
+Filter: 
+
+eth                                      frames:8783 bytes:5916215
+  ipv6                                   frames:22 bytes:3322
+    udp                                  frames:22 bytes:3322
+      dhcpv6                             frames:22 bytes:3322
+  ip                                     frames:8638 bytes:5907727
+    udp                                  frames:413 bytes:94192
+      nbdgm                              frames:4 bytes:990
+        smb                              frames:4 bytes:990
+          mailslot                       frames:4 bytes:990
+            browser                      frames:4 bytes:990
+      dns                                frames:155 bytes:17773
+      data                               frames:247 bytes:74058
+      bt-utp                             frames:2 bytes:768
+      edonkey                            frames:1 bytes:154
+        edonkey.unparsed                 frames:1 bytes:154
+      sabp                               frames:1 bytes:173
+      nbns                               frames:3 bytes:276
+    tcp                                  frames:8216 bytes:5812821
+      http                               frames:305 bytes:185281
+        data-text-lines                  frames:31 bytes:22781
+          tcp.segments                   frames:13 bytes:8231
+        image-gif                        frames:22 bytes:13162
+          tcp.segments                   frames:2 bytes:399
+        image-jfif                       frames:27 bytes:19068
+          tcp.segments                   frames:27 bytes:19068
+        media                            frames:12 bytes:9753
+          tcp.segments                   frames:12 bytes:9753
+        png                              frames:2 bytes:1174
+          tcp.segments                   frames:2 bytes:1174
+        tcp.segments                     frames:3 bytes:786
+        xml                              frames:2 bytes:2626
+          tcp.segments                   frames:2 bytes:2626
+        text                             frames:8 bytes:6824
+          tcp.segments                   frames:5 bytes:3472
+        uasip                            frames:3 bytes:2406
+          tcp.segments                   frames:3 bytes:2406
+        ocsp                             frames:22 bytes:18806
+          tcp.segments                   frames:14 bytes:12002
+      ssl                                frames:665 bytes:640412
+        tcp.segments                     frames:106 bytes:143827
+          ssl                            frames:103 bytes:140216
+      data                               frames:823 bytes:872218
+      reload-framing                     frames:4 bytes:3560
+    icmp                                 frames:9 bytes:714
+  arp                                    frames:123 bytes:5166
+===================================================================

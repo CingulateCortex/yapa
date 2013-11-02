@@ -1,0 +1,8 @@
+Starting tcpick 0.2.1 at 2013-10-25 22:42 EEST
+Timeout for connections is 600
+tcpick: reading from malware.pcap
+setting filter: "port 25"
+tcpick: done reading from malware.pcap
+
+0 packets captured
+0 tcp sessions detected
