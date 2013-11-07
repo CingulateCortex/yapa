@@ -11,7 +11,7 @@ class additions:
     def welcome(self):
         os.system("clear")
         print "=========================================="
-        print "        Yet Another Pcap Analyzer         "
+        print "     Yet Another Pcap Analyzer v0.1       "
         print "=========================================="
         print "          Kubilay Onur GUNGOR             "
         print "        www.cingulatecortex.com           "
