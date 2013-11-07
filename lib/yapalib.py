@@ -45,7 +45,7 @@ class yapalib:
 
     def search_string(self,filepcap, path, strn):
 
-        cmd = "ngrep -q -I %s |grep -i '%s' > results/%s" %(filepcap,strn, path)
+        cmd = "ngrep -q -I %s |grep -i '%s' >> results/%s" %(filepcap,strn, path)
         subprocess.call(cmd, shell=True)
 
     def search_mail_pattern(self,filepcap,path):
