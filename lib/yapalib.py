@@ -43,8 +43,9 @@ class yapalib:
         cmd = "tshark -r %s tcp.flags.syn eq 0x1 > results/%s "%(filepcap,path)
         subprocess.call(cmd, shell=True)
 
-    def search_string(self,filepcap):
-        cmd = "ngrep -q -I %s |grep -i pass" %filepcap
+    def search_string(self,filepcap, path, strn):
+
+        cmd = "ngrep -q -I %s |grep -i '%s' > results/%s" %(filepcap,strn, path)
         subprocess.call(cmd, shell=True)
 
     def search_mail_pattern(self,filepcap,path):
