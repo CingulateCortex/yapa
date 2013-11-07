@@ -52,7 +52,11 @@ while True:
         a.all_http_traffic(filename, "all_http_traffic.out")
     elif num == "11":
         a.top_talkers(filename,"top_talkers.out")
-    elif num=="12":
+    elif num == "12":
+
+        strn = raw_input("Enter your string the search in PCAP \n")
+        a.search_string(filename,"search_result.out", strn)
+    elif num=="13":
         break
     else:
         add.errorMessage()
