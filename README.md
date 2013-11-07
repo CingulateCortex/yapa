@@ -19,6 +19,7 @@ Currently YAPA v0.1 has below features
 * Search mail pattern in traffic
 * Show any TCP connection
 * Show any DNS traffic
+* Search any string in pcap file
 
 Future Works and Notes
 -------------------------
