@@ -11,11 +11,11 @@ class additions:
     def welcome(self):
         os.system("clear")
         print "=========================================="
-        print "      http://www.cingulatecortex.com      "
-        print "=========================================="
         print "        Yet Another Pcap Analyzer         "
         print "=========================================="
         print "          Kubilay Onur GUNGOR             "
+        print "        www.cingulatecortex.com           "
+        print "          kubilay@arquanum.com            "
         print "=========================================="
 
 
@@ -47,4 +47,5 @@ class additions:
               "9- Show Any TCP Communication\n" \
               "10- Show All HTTP Traffic\n" \
               "11- Run All\n" \
-              "12 - Quit"
+              "12- Search a String\n" \
+              "13 - Quit"
