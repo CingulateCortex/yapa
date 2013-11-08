@@ -40,11 +40,11 @@ Usage
 -------------------------
 ==========================================
      Yet Another Pcap Analyzer v0.1
-==========================================
+
           Kubilay Onur GUNGOR
         www.cingulatecortex.com
           kubilay@arquanum.com
-==========================================
+
 Welcome to YAPA Pcap Analyzer
 1- Top Talkers
 2- Hosts in Traffic
@@ -61,3 +61,4 @@ Welcome to YAPA Pcap Analyzer
 13- Search in Regex
 14- Quit
 Make your choice
+===========================================
