@@ -38,17 +38,17 @@ In future,
 
 Usage
 -------------------------
-==========================================
+
      Yet Another Pcap Analyzer v0.1
 
           Kubilay Onur GUNGOR
         www.cingulatecortex.com
           kubilay@arquanum.com
 
-Welcome to YAPA Pcap Analyzer
-1- Top Talkers
-2- Hosts in Traffic
-3- Show Hierarchy
+     Welcome to YAPA Pcap Analyzer
+       1- Top Talkers
+       2- Hosts in Traffic
+       3- Show Hierarchy
 4- Traffic with Destination Port
 5- Show SYN Packets
 6- Show User Agents
