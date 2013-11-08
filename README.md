@@ -39,26 +39,6 @@ In future,
 Usage
 -------------------------
 
-     Yet Another Pcap Analyzer v0.1
+python yapa.py malware.pcap
 
-          Kubilay Onur GUNGOR
-        www.cingulatecortex.com
-          kubilay@arquanum.com
-
-     Welcome to YAPA Pcap Analyzer
-       1- Top Talkers
-       2- Hosts in Traffic
-       3- Show Hierarchy
-4- Traffic with Destination Port
-5- Show SYN Packets
-6- Show User Agents
-7- Show DNS Traffic
-8- Show Any Mail
-9- Show Any TCP Communication
-10- Show All HTTP Traffic
-11- Run All
-12- Search a String
-13- Search in Regex
-14- Quit
-Make your choice
-===========================================
+regarding your options you chose in menu, the results will be in results folder in seperate files
