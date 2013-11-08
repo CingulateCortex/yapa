@@ -19,15 +19,15 @@ class yapalib:
 
     def traffic_dest_port(self,filepcap,path):
         cmd = "tshark -o column.format:'\"Source\", \"%s\", \"Destination\", \"%d\", \"dstport\", \"%uD\"' -r {} |sort|uniq > results/{}" .format(filepcap,path)
-        subprocess.call(cmd,shell=True)
+        subprocess.call(cmd, shell=True)
 
     def top_talkers(self,filepcap,path):
         cmd2= "tcpdump -tnr %s |awk -F '.' '{print $1\".\"$2\".\"$3\".\"$4}' | sort | uniq -c | sort -n | tail > results/%s 2>&1" %(filepcap,path)
-        subprocess.call(cmd2,shell=True)
+        subprocess.call(cmd2, shell=True)
 
     def all_conversation(self,filepcap,path):
         cmd = "tshark -o column.format:'\"Source\", \"%s\", \"Destination\", \"%d\", \"dstport\", \"%uD\"' -r {} |sort|uniq >results/{}".format(filepcap,path)
-        subprocess.call(cmd,shell=True)
+        subprocess.call(cmd, shell=True)
 
     def show_user_agents(self,filepcap,path):
 
@@ -60,4 +60,9 @@ class yapalib:
     def show_dns_traffic(self,filepcap,path):
 
         cmd = " tcpdump -Ann -r %s 'dst port 53' | grep  '(com|in|org)'>results/%s " %(filepcap,path)
-        subprocess.call(cmd, shell= True)
+        subprocess.call(cmd, shell=True)
+
+    def search_regex(self,filepcap,path,rgxtxt):
+
+        cmd = "ngrep -q -I {} '{}'+ >> results/{}" .format(filepcap,rgxtxt,path)
+        subprocess.call(cmd, shell=True)
