@@ -20,6 +20,7 @@ Currently YAPA v0.1 has below features
 * Show any TCP connection
 * Show any DNS traffic
 * Search any string in pcap file
+* Use Regular Expression to search string in Pcap
 
 Future Works and Notes
 -------------------------
