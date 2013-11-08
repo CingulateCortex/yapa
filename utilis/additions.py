@@ -48,4 +48,5 @@ class additions:
               "10- Show All HTTP Traffic\n" \
               "11- Run All\n" \
               "12- Search a String\n" \
-              "13 - Quit"
+              "13- Search in Regex\n" \
+              "14- Quit"
