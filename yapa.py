@@ -17,6 +17,7 @@ path = "results"
 add.mkdir_p(path)
 filename = sys.argv[1]
 
+
 add.welcome()
 print bcolors.HEADER + "Welcome to YAPA Pcap Analyzer"+ bcolors.ENDC
 #print add.menu()
@@ -61,6 +62,9 @@ while True:
             else:
                 a.search_string(filename,"search_result.out", strn)
     elif num=="13":
+        rgxtxt = raw_input("Enter your Regex\n")
+        a.search_regex(filename,"regex.out",rgxtxt)
+    elif num=="14":
         break
     else:
         add.errorMessage()
