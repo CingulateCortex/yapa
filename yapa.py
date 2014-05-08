@@ -71,15 +71,4 @@ while True:
 
 
 
-#b=pckgcheck()
-#print b.packageCheck
-#a.top_talkers("malware.pcap","a.out")
-#a.hos_of_ip_traffic("malware.pcap")
-#a,hos_of_ip_traffic("malware.pcap")
-#show_hierarcy(filepcap="malware.pcap")
-#traffic_dest_port(filepcap="malware.pcap")
-#top_talkers(filepcap="malware.pcap")
-#all_conversation(filepcap="malware.pcap")
-#show_user_agents(filepcap="malware.pcap")
-#all_http_traffic(filepcap="malware.pcap")
-#show_syn_packets(filepcap="malware.pcap")
+
